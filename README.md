@@ -8,3 +8,11 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 `willy`  |[![Build Status](https://travis-ci.org/informalr/textadventure.svg?branch=willy)](https://travis-ci.org/informalr/textadventure)|[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=willy)](https://codecov.io/github/informalr/textadventure/branch/willy)
 
 Text adventure using Shiny.
+
+Start the text adventure by:
+
+```{r}
+library(textadventure)
+start_app()
+```
+
