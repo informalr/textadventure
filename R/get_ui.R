@@ -5,9 +5,9 @@ get_ui <- function() {
     shiny::fluidRow(shiny::textOutput("text")),
     shiny::br(),
     shiny::fluidRow(
-      shiny::column(10, shiny::textInput("answer", label = NULL)
+      shiny::column(10, shiny::textInput("feedback", label = NULL)
       ),
-      shiny::column(2,  shiny::actionButton("OK", label = "OK")
+      shiny::column(2,  shiny::actionButton("go", label = "Go!")
       )
     ),
     shiny::hr(),

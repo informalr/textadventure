@@ -4,6 +4,16 @@
 #' @param session something
 #' @export
 get_server <- function(input, output, session) {
+
+  observeEvent(input$go, {
+    if (room_description == "outside" & input$feedback == "Go inside") {
+      room_description <- "inside"
+    } else if (room_description == "inside" & input$feedback == "Go outside") {
+      room_description <- "outside"
+    }
+    print(room_description)
+  })
+
   output$text <- shiny::renderText({
     if (room_description == "outside") {
       textadventure::get_room_outside_text()
