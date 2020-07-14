@@ -1,4 +1,4 @@
 #' Global variables
 
-room_description <- "inside"
+room_description <<- "outside"
 is_door_open <- FALSE
