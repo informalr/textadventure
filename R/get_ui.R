@@ -1,15 +1,16 @@
 #' Function that returns the user interface of the app
 #' @export
 get_ui <- function() {
-  fluidPage(
-    fluidRow(textOutput("text")),
-    fluidRow(
-      column(10, textInput("answer", label = NULL)
+  shiny::fluidPage(
+    shiny::fluidRow(shiny::textOutput("text")),
+    shiny::br(),
+    shiny::fluidRow(
+      shiny::column(10, shiny::textInput("answer", label = NULL)
       ),
-      column(2,  actionButton("OK", label = "OK")
+      shiny::column(2,  shiny::actionButton("OK", label = "OK")
       )
     ),
-    hr(),
-    fluidRow(verbatimTextOutput("debug_text"))
+    shiny::hr(),
+    shiny::fluidRow(shiny::verbatimTextOutput("debug_text"))
   )
 }
