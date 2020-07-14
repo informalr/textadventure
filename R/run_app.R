@@ -1,6 +1,6 @@
 #' Function that starts the app
 #' @export
 
-start_app <- function() {
-  shinyApp(ui = ui, server = server)
+run_app <- function() {
+  shiny::shinyApp(ui = get_ui, server = get_server)
 }
