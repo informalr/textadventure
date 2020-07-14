@@ -1,4 +1,6 @@
 #' Function that returns the server part of the app
+#' @param input something
+#' @param output something
 #' @export
 get_server <- function(input, output) {
   output$text <- shiny::renderText({
