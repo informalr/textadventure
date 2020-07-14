@@ -2,7 +2,7 @@
 #' @export
 get_server <- function(input, output) {
   output$text <- shiny::renderText({
-    "The moon is shining and the wolf is howling."
+    textadventure::get_room_outside_text()
   })
 
   output$debug_text <- shiny::renderPrint({
