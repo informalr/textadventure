@@ -1,3 +1,3 @@
 #' Global variables
 
-room_description <<- "outside"
+room_description <<- "inside"
