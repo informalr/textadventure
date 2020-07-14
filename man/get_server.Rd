@@ -6,6 +6,11 @@
 \usage{
 get_server(input, output)
 }
+\arguments{
+\item{input}{something}
+
+\item{output}{something}
+}
 \description{
 Function that returns the server part of the app
 }
