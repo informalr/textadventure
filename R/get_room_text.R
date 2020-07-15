@@ -1,12 +1,9 @@
 #' Get the text to describe the room
 #' @export
-get_room_text <- function() {
-  room_description <- get("room_description", envir = .GlobalEnv)
-
-  if (room_description == "outside") {
-    textadventure::get_room_outside_text()
+get_room_text <- function(room, is_door_open) {
+  if (room == "outside") {
+    textadventure::get_room_outside_text(is_door_open)
   } else {
-    testthat::expect_equal(room_description, "inside")
-    textadventure::get_room_inside_text()
+    textadventure::get_room_inside_text(is_door_open)
   }
 }

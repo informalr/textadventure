@@ -5,20 +5,19 @@
 #' @export
 get_server <- function(input, output, session) {
 
+  values <- reactiveValues(current_room = "outside",
+                           is_door_open = FALSE)
+
   observeEvent(input$go, {
-    if (room_description == "outside" & input$feedback == "Go inside") {
-      room_description <- "inside"
-    } else if (room_description == "inside" & input$feedback == "Go outside") {
-      room_description <- "outside"
+    if (values$current_room == "outside" & input$feedback == "Go inside") {
+      values$current_room <- "inside"
+    } else if (values$current_room == "inside" &
+               input$feedback == "Go outside") {
+      values$current_room <- "outside"
     }
-    print(room_description)
   })
 
   output$text <- shiny::renderText({
-    textadventure::get_room_text()
-  })
-
-  output$debug_text <- shiny::renderPrint({
-    shiny::reactiveValuesToList(input)
+    textadventure::get_room_text(values$current_room, values$is_door_open)
   })
 }

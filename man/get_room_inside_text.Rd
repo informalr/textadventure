@@ -4,7 +4,7 @@
 \alias{get_room_inside_text}
 \title{Get the text for the room called \code{outside}}
 \usage{
-get_room_inside_text()
+get_room_inside_text(is_door_open)
 }
 \description{
 Get the text for the room called \code{outside}

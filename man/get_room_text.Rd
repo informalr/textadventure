@@ -4,7 +4,7 @@
 \alias{get_room_text}
 \title{Get the text to describe the room}
 \usage{
-get_room_text()
+get_room_text(room, is_door_open)
 }
 \description{
 Get the text to describe the room
