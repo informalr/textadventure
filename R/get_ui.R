@@ -9,8 +9,6 @@ get_ui <- function() {
       ),
       shiny::column(2,  shiny::actionButton("go", label = "Go!")
       )
-    ),
-    shiny::hr(),
-    shiny::fluidRow(shiny::verbatimTextOutput("debug_text"))
+    )
   )
 }
