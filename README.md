@@ -9,10 +9,13 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 
 Text adventure using Shiny.
 
+![](20200715.png)
+
 Start the text adventure by:
 
 ```{r}
 library(textadventure)
 start_app()
 ```
+
 
