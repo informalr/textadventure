@@ -11,7 +11,7 @@ get_server <- function(input, output, session) {
     } else if (room_description == "inside" & input$feedback == "Go outside") {
       room_description <- "outside"
     }
-    print(room_description)
+    message(room_description)
   })
 
   output$text <- shiny::renderText({
