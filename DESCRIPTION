@@ -10,7 +10,6 @@ Description: All games are fun.
     Especially this text adventure.
 License: GPL-3
 Encoding: UTF-8
-LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Suggests: 
