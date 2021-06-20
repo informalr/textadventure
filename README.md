@@ -1,11 +1,11 @@
 # textadventure
 
-Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)                                                |[![Codecov logo](man/figures/Codecov.png)](https://www.codecov.io)
+Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.com)                                                |[![Codecov logo](man/figures/Codecov.png)](https://www.codecov.io)
 ---------|--------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------
-`master` |[![Build Status](https://travis-ci.org/informalr/textadventure.svg?branch=master)](https://travis-ci.org/informalr/textadventure) |[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=master)](https://codecov.io/github/informalr/textadventure/branch/master)
-`develop`|[![Build Status](https://travis-ci.org/informalr/textadventure.svg?branch=develop)](https://travis-ci.org/informalr/textadventure)|[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=develop)](https://codecov.io/github/informalr/textadventure/branch/develop)
-`richel` |[![Build Status](https://travis-ci.org/informalr/textadventure.svg?branch=richel)](https://travis-ci.org/informalr/textadventure)|[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=richel)](https://codecov.io/github/informalr/textadventure/branch/richel)
-`willy`  |[![Build Status](https://travis-ci.org/informalr/textadventure.svg?branch=willy)](https://travis-ci.org/informalr/textadventure)|[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=willy)](https://codecov.io/github/informalr/textadventure/branch/willy)
+`master` |[![Build Status](https://travis-ci.com/informalr/textadventure.svg?branch=master)](https://travis-ci.com/informalr/textadventure) |[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=master)](https://codecov.io/github/informalr/textadventure/branch/master)
+`develop`|[![Build Status](https://travis-ci.com/informalr/textadventure.svg?branch=develop)](https://travis-ci.com/informalr/textadventure)|[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=develop)](https://codecov.io/github/informalr/textadventure/branch/develop)
+`richel` |[![Build Status](https://travis-ci.com/informalr/textadventure.svg?branch=richel)](https://travis-ci.com/informalr/textadventure)|[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=richel)](https://codecov.io/github/informalr/textadventure/branch/richel)
+`willy`  |[![Build Status](https://travis-ci.com/informalr/textadventure.svg?branch=willy)](https://travis-ci.com/informalr/textadventure)|[![codecov.io](https://codecov.io/github/informalr/textadventure/coverage.svg?branch=willy)](https://codecov.io/github/informalr/textadventure/branch/willy)
 
 Text adventure using Shiny.
 
